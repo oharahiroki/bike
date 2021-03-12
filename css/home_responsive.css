@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+/*共通Css*/
+
+
+
+/*home*/
+
+
+@media (max-width:980px) {
+
+    h1 {
+        width: 100%;
+    }
+    
+    #slide_show img{
+        
+        width:980px;
+        height: 400px;
+    }
+    
+    #slide_show{
+        height: 400px;
+    }
+    
+    
+    
+    
+/*ここから編集*/
+    
+    
+#slide_show img{
+        width: 800px;        
+    }
+    
+    
+    
+    #main {
+        margin: 0 auto;
+    }
+
+    #contents {
+        display: block;
+
+    }
+
+    #news {
+        width: 560px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    time {
+        text-align: center;
+    }
+
+
+    #news ul li p {
+        text-align: center;
+        width: 100%;
+    }
+
+    #greeting {
+        width: 560px;
+        margin: 0 auto;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    #map {
+        display: block;
+    }
+
+    #banner a {
+        margin: 50px;
+        text-align: center;
+        display: inline-block;
+    }
+
+}
+
+
+
+
+
+@media (max-width:700px){
+    
+    #slide_show{
+        width: 700px;
+        height: 350px;
+    }
+    
+    #slide_show img{
+        width:400px;
+        height: 350px;
+    
+    }
+    
+    .slick-dots{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+@media (max-width:559px) {
+    
+     #slide_show{
+        width:100%;
+        height: 250px;
+    }
+    #slide_show img{
+        width:400px;
+        height: 250px;
+    
+    }
+    .slick-dots{
+        display: none;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    h1 a img{
+        width:320px;
+        height: auto; 
+    }
+ #footer_annotation{
+        font-size: 0.8em;
+    }
+
+    #copylight{
+        font-size: 0.8em;
+    }
+
+    #sns{
+        font-size: 0.8em:
+    }
+
+    #footer_wrapper {
+        display: block !important;
+        text-align: center;
+        width: 30%px;
+        font-size: 1em;
+    }
+
+    #center_footer {
+        margin-top: -2px;
+    }
+
+    #right_footer {
+        margin-top: -2px;
+    }
+
+    #center_footer li a {
+        border-bottom: none;
+    }
+
+    #right_footer li a {
+        border-bottom: none;
+    }
+    
+/*    ここから編集*/
+    
+    
+    #main {
+        margin: 0 auto;
+    }
+
+    #contents {
+        display: block;
+
+    }
+
+    #news {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    time {
+        text-align: center;
+    }
+
+
+    #news ul li p {
+        text-align: center;
+        width: 100%;
+    }
+    
+    #news ul{
+        padding: 0;
+    }
+
+    #greeting {
+        width: 300px;
+        margin: 0 auto;
+        font-size: 1em;
+        line-height: 1.8em;
+
+    }
+
+
+    #sub_contents1 img {
+
+        width: 150px;
+        height: auto;
+        margin: 0;
+    }
+    #sub_contents1 p{
+        font-size: 0.8em;
+        width: 150px;
+    }
+
+    #sub_contents2 img {
+        width: 150px;
+        height: auto;
+        margin: 0;
+    }
+
+#sub_contents2 p{
+        font-size: 0.8em;
+        width: 150px;
+    }
+ h3 {
+        font-size: 1.2em;
+    }
+
+    #map {
+        display: block;
+    }
+
+    #banner{
+        text-align: center;
+    }
+    
+    
+    #banner a {
+        margin: 0 0 0 5px;
+        text-align: center;
+        display:inline-block;
+        height: auto;
+    }
+
+    iframe {
+        width: 300px;
+        height: auto;
+    }
+    h2{
+        font-size: 1.2em;
+    }
+
+    h4{
+        font-size: 1.2em;
+    }
+    h5{
+        
+        font-size: 1.2em;
+    }
+
+}
+
+@media (max-width:450px){
+     #slide_show{
+        width:400px;
+        height: 100px;
+        display: none;
+    }
+    #slide_show img{
+        width:400px;
+        height: 100px;
+        display: none;
+    }
+   
+    #change{
+        display: block;
+        width:400px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    #change img{
+        width:400px;
+        height: 200px;
+    }
+}
+
+

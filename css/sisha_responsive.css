@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/*共通Css*/
+
+@media (max-width:970px){
+   
+    #boxb{
+        display: block;
+        text-align: center;
+    }
+    
+    #boxb p{
+    text-align: center;
+        margin: 0 auto;
+        width: auto;
+      
+}
+    #boxb figure:nth-child(1){
+    margin-right: 0px;
+        margin-left: 0px;
+}
+    
+}
+
+
+@media (max-width:560px){
+    #boxa img{
+    width: 250px;
+    height: auto;
+}
+#boxb img{
+    width: 250px;
+    height: auto;
+}
+    
+ #boxa{
+        font-size: 0.85em
+    }    
+    
+     #boxb{
+        font-size: 0.85em;
+    }
+    
+    
+}
+
+
+
+
+/*559px*/
+
+
+
+@media (max-width:559px) {
+    #right_footer {
+        margin-left: -40px;
+    }
+
+    .Form {
+        width: 300px;
+        font-size: 0.85em;
+    }
+
+    #footer_annotation p {
+        font-size: 0.85em;
+    }
+}

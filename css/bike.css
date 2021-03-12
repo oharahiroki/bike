@@ -1,0 +1,593 @@
+@charset "UTF-8";
+
+/*共通*/
+html[lang="ja"] {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+    /*    background-color: #EDEDED;*/
+
+}
+
+
+/*ヘッダー*/
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 img {
+    width: 20%;
+    height: auto;
+}
+
+
+/*ナビ*/
+#main_nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: darkblue;
+    height: auto;
+    /*
+    position:fixed;
+    top:97px;
+    left: 0;
+    width: 100%;
+*/
+}
+
+#main_nav ul li {
+    width: calc(100%/6);
+    text-align: center;
+}
+
+#main_nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+#main_nav .title_ja::before {
+    content: "\A";
+    white-space: pre;
+}
+
+.title_ja {
+    font-size: 0.875em;
+}
+
+#main_nav ul li:hover {
+    background-color: white;
+}
+
+#main_nav ul li a:hover {
+    color: black;
+}
+
+
+#main_nav ul li a:nth-of-type(1) {
+    height: 56px;
+}
+
+
+
+/*フッター*/
+#footer {
+    margin: 0;
+    border-top: 0.5px solid;
+    border-image: linear-gradient(to right, transparent 0%, transparent 20%, white 50%, transparent 80%, transparent 100%);
+    border-image-slice: 1;
+}
+
+/*
+#left_footer img {
+    width: 200px;
+    height: auto;
+}
+*/
+
+
+
+#footer_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#sns {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#sns ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    width: 300px;
+}
+
+#sns ul li {
+    display: block;
+    width: 2.8em;
+    padding: 5px
+}
+
+.line,
+.facebook,
+.instagram,
+.twitter {
+    font-size: 2.8em;
+}
+
+.line {
+    color: #00B900;
+}
+
+.facebook {
+    color: #1877f2;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.instagram {
+    border-radius: 20%;
+    background: radial-gradient(at 20% 120%, orange, #f15a4d 25%, #f13f79 55%, #9933ff 100%) no-repeat;
+    color: white;
+}
+
+#left_footer {
+    line-height: 2.5em;
+}
+
+#copylight {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer_annotation p {
+    text-align: center;
+}
+
+#center_footer {
+     margin-top: 200px;
+    line-height: 3em;
+}
+
+#center_footer li {
+    list-style-type: none;
+}
+
+#center_footer li a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px dashed white;
+    display: block;
+}
+
+#right_footer {
+    line-height: 3em;
+     margin-top: 180px;
+}
+
+#right_footer li {
+    list-style-type: none;
+}
+
+#right_footer li a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px dashed white;
+    display: block;
+}
+
+#center_footer li a:hover,
+#right_footer li a:hover {
+    background-color: white;
+}
+
+#center_footer li a:hover,
+#right_footer li a:hover {
+    color: black;
+    border-bottom: 1px dashed white;
+}
+
+#sns li:hover {
+    background-color: white;
+    width: 2.8em;
+    border-radius: 50%;
+
+}
+
+/*
+#left_footer p:nth-of-type(1) {
+    display: inline-block;
+    font-size: 1.5em;
+    border-bottom: solid 2px white;
+}
+*/
+
+#left_footer img:nth-of-type(1){
+        margin-top: 50px;
+                width: 200px;
+    }
+
+
+
+
+/*topに戻る*/
+#scrollTop img {
+    width: 100px;
+    height: auto;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+/*メイン*/
+/*ホンダ*/
+#honda {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#honda_log {
+    margin-top: 50px;
+background-image: linear-gradient(to right, transparent 20%,white 40%, white 50%,white 60%,transparent 80%);
+}
+
+
+#honda_log img {
+    width: 100px;
+    height: auto;
+}
+
+#honda_bike img {
+    width: 300px;
+    height: auto;
+}
+
+#honda_bike {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*スズキ*/
+#suzuki {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#suzuki_log {
+/*    background-image: linear-gradient(to right, white 10%, transparent 30%);*/
+    background-image: linear-gradient(to right, transparent 20%,white 40%, white 50%,white 60%,transparent 80%);
+}
+
+#suzuki_log img {
+    width: 100px;
+    height: auto;
+}
+
+#suzuki_bike img {
+    width: 300px;
+    height: auto;
+}
+
+#suzuki_bike {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*ヤマハ*/
+#yamaha {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#yamaha_log {
+    background-image: linear-gradient(to right, transparent 20%,white 40%, white 50%,white 60%,transparent 80%);
+}
+
+#yamaha_log img {
+    width: 100px;
+    height: auto;
+}
+
+#yamaha_bike img {
+    width: 300px;
+    height: auto;
+}
+
+#yamaha_bike {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*カワサキ*/
+#kawasaki {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#kawasaki_log {
+    background-image: linear-gradient(to right, transparent 20%,white 40%, white 50%,white 60%,transparent 80%);
+}
+
+#kawasaki_log img {
+    width: 100px;
+    height: auto;
+}
+
+#kawasaki_bike img {
+    width: 300px;
+    height: auto;
+}
+
+#kawasaki_bike {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*海外*/
+　
+#kaigai{
+}
+
+
+/*BMW*/
+#bmw {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#bmw_log img {
+    width: 100px;
+    height: auto;
+    background-image: linear-gradient(to right, transparent 20%,white 40%, white 50%,white 60%,transparent 80%);
+}
+
+#bmw_bike img {
+    width: 300px;
+    height: auto;
+}
+
+#bmw_bike {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*ハーレイ*/
+#haray {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#haray_log img {
+    width: 100px;
+    height: auto;
+}
+
+#haray_bike img {
+    width: 300px;
+    height: auto;
+}
+
+#haray_bike {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*ducati*/
+
+#ducati {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#ducati_log img {
+    width: 100px;
+    height: auto;
+}
+
+#ducati_bike img {
+    width: 300px;
+    height: auto;
+}
+
+#ducati_bike {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*piajio*/
+
+
+#vespa {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#vespa_log img {
+    width: 100px;
+    height: auto;
+}
+
+#vespa_bike img {
+    width: 300px;
+    height: auto;
+}
+
+#vespa_bike {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*pujo*/
+#pujo {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#pujo_log img {
+    width: 100px;
+    height: auto;
+}
+
+#pujo_bike img {
+    width: 300px;
+    height: auto;
+}
+
+#pujo_bike {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*DERBI*/
+#derbi {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#derbi_log img {
+    width: 100px;
+    height: auto;
+}
+
+#derbi_bike img {
+    width: 300px;
+    height: auto;
+}
+
+#derbi_bike {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*subナビ*/
+
+#nav_fix {
+    position: fixed;
+    width: 100px;
+    height: auto;
+    top: 130px;
+    right:70px;
+}
+
+#nav_fix ul {
+    padding: 0;
+}
+
+#nav_fix li {
+    list-style-type: none;
+    width: 150px;
+    text-align:end;
+    
+    
+}
+
+#nav_fix li a {
+    text-decoration: none;
+    color:white;
+     line-height: 2.5em;
+}
+
+#nav_fix li a:hover {
+    color: black;
+     background-color: white;
+}
+
+#honda,
+#suzuki,
+#yamaha,
+#kawasaki,
+#bmw,
+#haray,
+#ducati,
+#vespa,
+#pujo,
+#derbi{
+    margin-bottom: 150px;
+}
+#honda_log,
+#suzuki_log,
+#yamaha_log,
+#kawasaki_log,
+#bmw_log,
+#haray_log,
+#ducati_log,
+#vespa_log,
+#pujo_log,
+#derbi_log{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.chuushaku{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*ここから装飾*/
+
+figcaption {
+    background-color: white;
+    color: black;
+}
+
+figcaption p:nth-of-type(1){
+    margin: 0;
+}
+
+figcaption p:nth-of-type(3){
+    margin: 0;
+}
+
+figure a{
+    background-color: white;
+}
+
+figure{
+    box-shadow: 15px 15px 0px 0px rgba(255,255,255,0.2);
+}

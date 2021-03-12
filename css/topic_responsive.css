@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/*共通Css*/
+
+@media (max-width:1000px){
+    #article1{
+        display: block;
+        text-align: center;
+    }
+    .pic_1{
+        margin: 0 auto;
+    }
+    .text1{
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    #blog{
+        display: block;
+    }
+    
+    .blog_img{
+        text-align: center;
+    }
+    
+    .blog_text{
+        margin: 0 auto;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+    /*559px*/
+
+
+    
+       @media (max-width:559px) {
+    #right_footer {
+        margin-left: -40px;
+    }
+
+    .Form {
+        width: 300px;
+        font-size: 0.85em;
+    }
+
+    #footer_annotation p {
+        font-size: 0.85em;
+    }
+}
+
+
+@media (max-width:650px){
+    
+    #footer_annotation p {
+        font-size: 0.75em;
+    }
+    
+    .blog_img img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .blog_text{
+        width:300px;
+      
+    }
+      
+    .pic_1 img{
+        width: 300px;
+        height: auto;
+    }    
+        
+     .text1{
+         width: 300px;
+         
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .adress{
+        margin-left: px;
+        width: 185px;
+        font-size: 0.85em;
+    }
+    
+    h3{
+        font-size: 1em;
+        
+    }
+    
+    #time{
+        font-size: 1em;
+    }
+    article1 p{
+        font-size: 0.85em;
+    }
+    
+    
+    
+}

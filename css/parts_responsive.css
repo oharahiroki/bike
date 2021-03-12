@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*共通Css*/
+
+
+
+  @media (max-width:559px){
+    #right_footer{
+        margin-left: -40px;
+    }
+    
+    
+}
+
+
+
+    @media (max-width:450px) {
+        dl{
+            display: block;
+        }
+  
+}
+        /*    ここから編集*/
+
+
+    }
+
+
+ @media (max-width:300px) {
+
+
+pic {
+    z-index: 100000;
+    top: 35%;
+    left: 20%;
+    position: absolute;
+}
+     
+}

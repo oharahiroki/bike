@@ -1,0 +1,342 @@
+@charset "UTF-8";
+
+/*共通*/
+html[lang="ja"] {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+    /*    background-color: #EDEDED;*/
+
+}
+
+
+/*ヘッダー*/
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 img {
+    width: 20%;
+    height: auto;
+}
+
+
+/*ナビ*/
+#main_nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: darkblue;
+    height: auto;
+    /*
+    position:fixed;
+    top:97px;
+    left: 0;
+    width: 100%;
+*/
+}
+
+#main_nav ul li {
+    width: calc(100%/6);
+    text-align: center;
+}
+
+#main_nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+#main_nav .title_ja::before {
+    content: "\A";
+    white-space: pre;
+}
+
+.title_ja {
+    font-size: 0.875em;
+}
+
+#main_nav ul li:hover {
+    background-color: white;
+}
+
+#main_nav ul li a:hover {
+    color: black;
+}
+
+
+#main_nav ul li a:nth-of-type(1){
+    height: 60px;
+}
+ 
+
+/*フッター*/
+#footer {
+    margin: 0;
+    border-top: 0.5px solid;
+    border-image: linear-gradient(to right, transparent 0%, transparent 20%, white 50%, transparent 80%, transparent 100%);
+    border-image-slice: 1;
+}
+
+/*
+#left_footer img {
+    width: 200px;
+    height: auto;
+}
+*/
+
+
+
+#footer_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#sns {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#sns ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    width: 300px;
+}
+
+#sns ul li {
+    display: block;
+    width: 2.8em;
+    padding: 7px
+}
+
+.line,
+.facebook,
+.instagram,
+.twitter {
+    font-size: 2.8em;
+}
+
+.line {
+    color: #00B900;
+}
+
+.facebook {
+    color: #1877f2;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.instagram {
+    border-radius: 20%;
+    background: radial-gradient(at 20% 120%, orange, #f15a4d 25%, #f13f79 55%, #9933ff 100%) no-repeat;
+    color: white;
+}
+
+#left_footer {
+    line-height: 2.5em;
+}
+
+#copylight {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer_annotation p {
+    text-align: center;
+}
+
+#center_footer {
+    margin-top: 200px;
+    line-height: 3em;
+}
+
+#center_footer li {
+    list-style-type: none;
+}
+
+#center_footer li a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px dashed white;
+    display: block;
+}
+
+#right_footer {
+    line-height: 3em;
+    margin-top: 180px;
+}
+
+#right_footer li {
+    list-style-type: none;
+}
+
+#right_footer li a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px dashed white;
+    display: block;
+}
+
+#center_footer li a:hover,
+#right_footer li a:hover {
+    background-color: white;
+}
+
+#center_footer li a:hover,
+#right_footer li a:hover {
+    color: black;
+    border-bottom: 1px dashed white;
+}
+
+#sns li:hover {
+    background-color: white;
+    width: 2.8em;
+    border-radius: 50%;
+
+}
+
+/*
+#left_footer p:nth-of-type(1) {
+    display: inline-block;
+    font-size: 1.5em;
+    border-bottom: solid 2px white;
+}
+*/
+
+#left_footer img:nth-of-type(1) {
+    margin-top: 50px;
+    width: 200px;
+}
+
+
+
+
+/*topに戻る*/
+#scrollTop img {
+    width: 100px;
+    height: auto;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+/*メイン*/
+h2 {
+    color: white;
+    text-shadow: 0px 0px 100px white;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+dl {
+    background-color: white;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.goods img,
+.parts img,
+.oil img,
+.seal img {
+    width: 200px;
+    height: auto;
+}
+
+#main {
+    overflow-x: hidden;
+color: black;
+}
+
+dl{
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: gray 10px 10px 4px;
+}
+
+/*
+.goods,.parts,.oil,.seal{
+    display: flex;
+    justify-content: space-between;
+}
+*/
+
+dd{
+    margin: 0;
+}
+
+dl dt:nth-of-type(2){
+    text-align: center;
+}
+dl dd{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* box2 */
+#box2 {
+    background-color: white;
+    opacity: .8;
+    position:fixed;
+    top: 154px;
+    transition: .5s;
+    right: -100%;
+    /*  margin: 0 1rem;*/
+}
+
+#box2.open {
+    right: 0;
+}
+
+#box2 p {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    transition: .3s;
+    overflow: hidden;
+    color: white;
+}
+
+#box2 p.open {
+    height: 20px;
+}
+
+#box2 input[type="submit"] {
+    width: 80px;
+    margin-top: 1rem;
+}
+

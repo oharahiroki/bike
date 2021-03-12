@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*共通Css*/
+
+@media (max-width:1079px){
+    .box img{
+        width: 300px;
+        height: auto;
+    }
+    
+}
+
+
+
+
+
+
+
+/*559px*/
+
+
+
+@media (max-width:559px) {
+    #right_footer {
+        margin-left: -40px;
+    }
+
+    .Form {
+        width: 300px;
+        font-size: 0.85em;
+    }
+
+    #footer_annotation p {
+        font-size: 0.85em;
+    }
+}

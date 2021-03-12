@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*共通Css*/
+
+
+    /*559px*/
+
+@media (max-width:950px){
+    #nav_fix li a{
+        color:#2d59b4;
+    }
+    .open2 .toggle_btn span {
+		background-color:#2d59b4;
+	}
+    .toggle_btn span {
+		
+		background-color:#2d59b4;
+		
+	}
+
+    
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width:559px){
+    #right_footer{
+        margin-left: -40px;
+    }
+    
+    
+}
+
+
+
+
